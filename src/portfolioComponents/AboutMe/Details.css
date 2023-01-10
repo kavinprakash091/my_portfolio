@@ -1,0 +1,151 @@
+.details-container {
+    width: 100%;
+}
+
+.about-me-container {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.about-me-container h5 {
+    font-weight: 200;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.detail-container {
+    height: auto;
+    width: 70%;
+    margin: 3% auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    width: 40%;
+    height: 70vh;
+}
+
+.image-container>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.qualification-detail-container {
+    width: 60%;
+    height: auto;
+}
+
+.qualification {
+    width: 90%;
+    padding: 5%;
+}
+
+.qualification p {
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 0.08rem;
+}
+
+.highlights {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.list-highlights li {
+    color: #e63c22;
+    font-size: 2rem;
+    margin-left: 5%;
+    line-height: 1.3rem;
+}
+
+.list-highlights-value {
+    color: #000;
+    font-size: 1rem;
+}
+
+.button-container1 {
+    width: 100%;
+    margin-left: -5%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.hire-me-button1 {
+    padding: 2.3% 8%;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: #1e1f30;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hire-me-button1:hover {
+    background-color: #494b70;
+    color: #fff;
+    transition: 0.7s ease-out;
+}
+
+.get-resume-button1 {
+    width: 100%;
+    padding: 14.5% 40%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: #e63c22;
+    color: #fff;
+    cursor: pointer;
+}
+
+.get-resume-button1:hover {
+    background-color: #8b1301;
+    color: #fff;
+    transition: 0.7s ease-in-out;
+}
+
+@media screen and (max-width:450px) {
+    .image-container {
+        width: 100%;
+        height: 40vh;
+    }
+    .detail-container {
+        width: 85%;
+        margin: 10% auto;
+        flex-direction: column;
+    }
+    .qualification-detail-container {
+        width: 95%;
+        color: #303030;
+    }
+    .qualification p {
+        line-height: 1.6rem;
+        letter-spacing: 0.001rem;
+        font-size: 1rem;
+    }
+    .highlights li {
+        margin-left: 9%;
+    }
+    .button-container1 {
+        margin: 10% 2%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .hire-me-button1 {
+        padding: 4% 18%;
+        margin-left: -5%;
+    }
+    .get-resume-button1 {
+        padding: 15% 50%;
+        margin-left: -60%;
+    }
+}
