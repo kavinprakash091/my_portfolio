@@ -94,11 +94,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 9rem;
 }
 
 .hire-me-button {
-    padding: 1.5% 5%;
+    width: 100%;
+    padding: 20% 65%;
     border: 1px solid #fff;
     font-size: 1rem;
     border-radius: 25px;
@@ -144,8 +145,11 @@
     .profile-tagline h5 {
         font-size: 1rem;
     }
+    .button-container {
+        gap: 9rem;
+    }
     .hire-me-button {
-        padding: 2.3% 7%;
+        padding: 15% 65%;
     }
 }
 
@@ -172,7 +176,16 @@
         margin-bottom: 3rem;
     }
     .hire-me-button {
-        padding: 2.5% 10%;
+        padding: 20% 65%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .button-container {
+        margin-left: -30%;
+    }
+    .hire-me-button {
+        padding: 20% 65%;
     }
 }
 
@@ -187,10 +200,11 @@
     .button-container {
         flex-direction: column;
         gap: 1rem;
+        margin-left: -5%;
     }
     .hire-me-button {
-        padding: 5% 20%;
-        margin-left: 8%;
+        padding: 20% 65%;
+        margin-left: -50%;
     }
     .get-resume-button {
         margin-left: -30%;

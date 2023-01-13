@@ -1,0 +1,12 @@
+.achievements-container {
+    width: 100%;
+}
+
+.achievements-background-container {
+    height: 60vh;
+    width: 80%;
+    margin: 5% auto;
+    background-image: url('../../assets/Achievements/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

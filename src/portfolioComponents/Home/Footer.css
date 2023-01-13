@@ -25,4 +25,7 @@
     .footer-container {
         height: 3vh;
     }
+    .footer-container>img {
+        height: 103%;
+    }
 }

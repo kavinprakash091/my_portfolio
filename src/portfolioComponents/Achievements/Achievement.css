@@ -1,0 +1,18 @@
+.achievement-list-container {
+    height: 46vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.achievements-list {
+    width: 25%;
+    height: 30vh;
+    border-radius: 50px 50px 50px 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

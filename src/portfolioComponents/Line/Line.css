@@ -16,3 +16,27 @@
     border-radius: 25px;
     background-color: #e63c22;
 }
+
+@media screen and (max-width:800px) {
+    .line-container {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .line-container {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .line-container {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .line-container {
+        width: 40%;
+    }
+}

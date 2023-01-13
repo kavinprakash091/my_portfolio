@@ -1,0 +1,105 @@
+.contact-me-container {
+    width: 100%;
+}
+
+.contact-me-background-container {
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 25px;
+    background-color: #1e1f30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container {
+    width: 100%;
+    height: 100%;
+}
+
+.mail-header {
+    color: #fff;
+    padding: 3% 5%;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.social-media-container1 {
+    margin: 8% 0.5%;
+}
+
+.social-media-container1 a i {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 1%;
+}
+
+.mail-text {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.mail-image-container {
+    height: 25vh;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.mail-image-container>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right-container {
+    width: 100%;
+    height: 100%;
+}
+
+.mail-container {
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 10% auto 5% auto;
+    background-color: #fff;
+}
+
+.up-button {
+    padding: 1% 1.5%;
+    border: none;
+    border-radius: 8px;
+    margin-top: -10%;
+    margin-right: 3%;
+    font-size: 1rem;
+    background-color: #e63c22;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .contact-me-background-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contact-me-background-container {
+        border-radius: 10px;
+    }
+    .mail-text {
+        font-size: 1.2rem;
+    }
+    .mail-image-container {
+        height: 20vh;
+    }
+    .up-button {
+        margin-top: -13%;
+        margin-right: 2%;
+    }
+}

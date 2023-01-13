@@ -2,12 +2,12 @@ import React from 'react'
 import './Details.css'
 import Line from '../Line/Line'
 
-export default function Details() {
+export default function Details(props) {
   return (
     <div className='details-container' id='aboutme'>
-        <div className='about-me-container'>
-            <h1>About Me</h1>
-            <h5>Why choose me?</h5>
+        <div className='header-container'>
+            <h1>{props.header}</h1>
+            <h5>{props.subheader}</h5>
         </div>
         <Line></Line>
         <div className='detail-container'>
@@ -30,7 +30,7 @@ export default function Details() {
                     </ul>
                 </div>
                 <div className='button-container1'>
-                    <button className='hire-me-button1'>Hire Me</button>
+                    <a href='#contactme'><button className='hire-me-button1'>Hire Me</button></a>
                     <a href="KAVIN_P.pdf" download='kavin.pdf'>
                         <button className='get-resume-button1'>Get Resume</button>
                     </a>

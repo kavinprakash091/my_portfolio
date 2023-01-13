@@ -141,6 +141,7 @@
     }
     #isChecked:checked~.nav-links {
         right: 7%;
+        position: absolute;
     }
 }
 

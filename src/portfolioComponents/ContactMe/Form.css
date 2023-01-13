@@ -1,0 +1,60 @@
+.form-container {
+    height: auto;
+    width: 100%;
+}
+
+.input-container {
+    padding: 2.5% 0% 0% 5%;
+    text-align: left;
+}
+
+.input-container label {
+    margin-left: 1%;
+    letter-spacing: 0.09rem;
+}
+
+.input-container input {
+    border: none;
+    border-radius: 10px;
+    height: 6vh;
+    width: 98%;
+    margin-top: 2%;
+    background-color: rgb(229, 229, 229);
+}
+
+#message {
+    height: 13vh;
+    width: 98%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(229, 229, 229);
+}
+
+.send-button {
+    margin-top: 5%;
+    margin-left: -65%;
+    margin-bottom: 3%;
+    padding: 1% 5%;
+    border: 1px solid #e63c22;
+    background-color: #1e1f30;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #e63c22;
+    border: 1px solid #1e1f30;
+}
+
+@media screen and (max-width:450px) {
+    .input-container input,
+    #message {
+        width: 95%;
+    }
+    .send-button {
+        margin-left: -60%;
+    }
+}

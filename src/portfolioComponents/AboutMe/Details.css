@@ -2,19 +2,6 @@
     width: 100%;
 }
 
-.about-me-container {
-    margin-top: 10%;
-    width: 100%;
-}
-
-.about-me-container h5 {
-    font-weight: 200;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    margin-top: 1%;
-    margin-bottom: 3%;
-}
-
 .detail-container {
     height: auto;
     width: 70%;
@@ -50,6 +37,7 @@
     text-align: justify;
     line-height: 1.5rem;
     letter-spacing: 0.08rem;
+    color: #3d3d3d;
 }
 
 .highlights {
@@ -65,7 +53,7 @@
 }
 
 .list-highlights-value {
-    color: #000;
+    color: #3d3d3d;
     font-size: 1rem;
 }
 
@@ -77,11 +65,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 7rem;
 }
 
 .hire-me-button1 {
-    padding: 2.3% 8%;
+    width: 100%;
+    padding: 20% 70%;
     border: 1px solid #fff;
     font-size: 1rem;
     border-radius: 25px;
@@ -113,6 +102,95 @@
     transition: 0.7s ease-in-out;
 }
 
+@media screen and (max-width:1040px) {
+    .highlights li {
+        margin-left: 6%;
+    }
+    .button-container1 {
+        gap: 7rem;
+        margin-left: -9%;
+    }
+    .hire-me-button1 {
+        padding: 20% 70%;
+    }
+}
+
+@media screen and (max-width:1005px) {
+    .image-container {
+        height: 73vh;
+    }
+    .highlights li {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .button-container1 {
+        gap: 6rem;
+    }
+    .hire-me-button1 {
+        padding: 20% 70%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .image-container {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .detail-container {
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .image-container {
+        height: 100vh;
+        width: 100%;
+    }
+    .qualification-detail-container {
+        width: 100%;
+    }
+    .qualification {
+        width: 90%;
+    }
+    .highlights li {
+        margin-left: 5%;
+    }
+    .button-container1 {
+        gap: 7rem;
+        margin-left: -7%;
+        margin-bottom: 2%;
+    }
+    .hire-me-button1 {
+        padding: 20% 70%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image-container {
+        height: 80vh;
+    }
+    .highlights li {
+        margin-left: 6%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .button-container1 {
+        gap: 7rem;
+    }
+    .highlights li {
+        margin-left: 7%;
+    }
+    .button-container1 {
+        margin-left: -9%;
+    }
+    .hire-me-button1 {
+        padding: 20% 70%;
+    }
+}
+
 @media screen and (max-width:450px) {
     .image-container {
         width: 100%;
@@ -141,8 +219,8 @@
         gap: 1rem;
     }
     .hire-me-button1 {
-        padding: 4% 18%;
-        margin-left: -5%;
+        padding: 25% 85%;
+        margin-left: -100%;
     }
     .get-resume-button1 {
         padding: 15% 50%;

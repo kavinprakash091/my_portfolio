@@ -6,26 +6,26 @@ export default function Porfile() {
   return (
     <div className='profile-container'>
       <div className='profile-details-container'>
-        <div className='social-media-container'>
-            <a href='https://www.google.com'>
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href='https://www.google.com'>
-                <i class="fa-brands fa-square-google-plus"></i>
-            </a>
-            <a href='https://www.google.com'>
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href='https://www.google.com'>
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href='https://www.google.com'>
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href='https://www.google.com'>
-                <i class="fa-brands fa-square-github"></i>
-            </a>
-        </div>
+      <div className='social-media-container'>
+        <a href='https://www.google.com'>
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href='https://www.google.com'>
+            <i class="fa-brands fa-square-google-plus"></i>
+        </a>
+        <a href='https://www.google.com'>
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href='https://www.google.com'>
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href='https://www.google.com'>
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href='https://www.google.com'>
+            <i class="fa-brands fa-square-github"></i>
+        </a>
+    </div>
         <div className='profile-name-container'>
             <h2>Hello, I'm <span className='profile-name'>Kavin</span></h2>
         </div>
@@ -52,7 +52,7 @@ export default function Porfile() {
             <h5>Knack of building applications with front and back end operations</h5>
         </div>
         <div className='button-container'>
-            <button className='hire-me-button'>Hire Me</button>
+            <a href='#contactme'><button className='hire-me-button'>Hire Me</button></a>
             <a href='KAVIN_P.pdf' download="KAVIN P.pdf">
                 <button className='get-resume-button'>Get Resume</button>
             </a>
