@@ -1,46 +1,55 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Form.css";
+import emailjs from "emailjs-com";
 
-export default class Form extends Component {
-  constructor(props) {
-    super(props);
+export default function Form() {
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-    };
-  }
-
-  render() {
-    return (
-      <div className="form-container">
-        <form>
-          <div className="input-container">
-            <label>Name</label>
-            <div>
-              <input type="text" />
-            </div>
+    emailjs
+      .sendForm(
+        "service_2s9apbh",
+        "template_vg8nj0u",
+        e.target,
+        "jno0RS0ycSsPcNIr2"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+  return (
+    <div className="form-container">
+      <form onSubmit={sendEmail}>
+        <div className="input-container">
+          <label>Name</label>
+          <div>
+            <input type="text" name="name" />
           </div>
-          <div className="input-container">
-            <label>Email</label>
-            <div>
-              <input type="text" />
-            </div>
+        </div>
+        <div className="input-container">
+          <label>Email</label>
+          <div>
+            <input type="text" name="email" />
           </div>
-          <div className="input-container">
-            <label>Message</label>
-            <div>
-              <textarea type="text" id="message">
-                {" "}
-              </textarea>
-            </div>
+        </div>
+        <div className="input-container">
+          <label>Message</label>
+          <div>
+            <textarea type="text" id="message" name="message">
+              {" "}
+            </textarea>
           </div>
-          <button className="send-button">
-            Send <i class="fa-solid fa-paper-plane"></i>
-          </button>
-        </form>
-      </div>
-    );
-  }
+        </div>
+        <button className="send-button" type="submit">
+          Send <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  );
 }
