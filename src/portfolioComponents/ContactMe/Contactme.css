@@ -82,13 +82,17 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:800px) {
+.up-button:hover {
+    margin-top: -11%;
+}
+
+@media screen and (max-width: 800px) {
     .contact-me-background-container {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
     .contact-me-background-container {
         border-radius: 10px;
     }

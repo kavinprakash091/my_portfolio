@@ -50,6 +50,7 @@
 .send-button:hover {
     background-color: #e63c22;
     border: 1px solid #1e1f30;
+    transition: 0.8s ease-in;
 }
 
 @media screen and (max-width: 450px) {

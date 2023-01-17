@@ -51,6 +51,7 @@
 .resume-items li:hover {
     color: #fff;
     background-color: #1e1f30;
+    transition: 0.5s ease-in-out;
 }
 
 .resume-list-detail-container {
@@ -99,7 +100,7 @@
     font-weight: 600;
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width: 1040px) {
     .resume-list-text {
         font-size: 1rem;
     }
@@ -117,7 +118,7 @@
     }
 }
 
-@media screen and (max-width:925px) {
+@media screen and (max-width: 925px) {
     .resume-menus {
         padding: 30% 0%;
     }
@@ -146,7 +147,7 @@
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .resume-details-container {
         flex-direction: column;
     }
@@ -197,7 +198,7 @@
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 650px) {
     .resume-list-text {
         font-size: 1.2rem;
     }
@@ -206,7 +207,7 @@
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 650px) {
     .resume-list-text {
         font-size: 1rem;
     }
@@ -218,7 +219,7 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
     .resume-list-container {
         width: 80%;
     }

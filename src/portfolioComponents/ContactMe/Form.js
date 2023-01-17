@@ -1,6 +1,7 @@
 import React from "react";
 import "./Form.css";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 
 export default function Form() {
   const sendEmail = (e) => {
@@ -15,10 +16,10 @@ export default function Form() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toast.success("Mail sent successfully!");
         },
         (error) => {
-          console.log(error.text);
+          toast.error("Something went wrong!");
         }
       );
     e.target.reset();
@@ -29,19 +30,19 @@ export default function Form() {
         <div className="input-container">
           <label>Name</label>
           <div>
-            <input type="text" name="name" />
+            <input type="text" name="name" required />
           </div>
         </div>
         <div className="input-container">
           <label>Email</label>
           <div>
-            <input type="text" name="email" />
+            <input type="text" name="email" required />
           </div>
         </div>
         <div className="input-container">
           <label>Message</label>
           <div>
-            <textarea type="text" id="message" name="message">
+            <textarea type="text" id="message" name="message" required>
               {" "}
             </textarea>
           </div>

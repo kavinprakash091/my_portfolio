@@ -1,12 +1,24 @@
 .achievements-container {
-    width: 100%;
-}
-
-.achievements-background-container {
     height: 60vh;
     width: 80%;
     margin: 5% auto;
-    background-image: url('../../assets/Achievements/bg-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-bottom: 20%;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.img-container {
+    height: 50vh;
+    width: 100%;
+    border-radius: 100px 0px 100px 0px;
+}
+
+.img-container>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px 0px 100px 0px;
+    object-fit: cover;
 }
