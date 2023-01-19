@@ -73,7 +73,7 @@
     display: none;
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width: 1040px) {
     .logo {
         margin-top: 4%;
         margin-left: 5%;
@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (max-width:970px) {
+@media screen and (max-width: 970px) {
     .logo {
         margin-top: 4%;
         margin-left: 3%;
@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and (max-width:870px) {
+@media screen and (max-width: 870px) {
     .logo {
         margin-top: 5.5%;
         margin-left: 4%;
@@ -145,7 +145,7 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
     .nav-bar-container {
         padding-bottom: 65%;
     }

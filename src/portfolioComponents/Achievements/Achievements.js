@@ -12,25 +12,42 @@ export default function Achievements(props) {
         <h5>{props.subheader}</h5>
       </div>
       <Line></Line>
-      <div className="carousel-wrapper">
-        <Carousel infiniteLoop useKeyboardArrows autoPlay>
+      <div className="carousel-container">
+        <Carousel
+          infiniteLoop
+          autoPlay
+          useKeyboardArrows
+          centerMode
+          dynamicHeight
+        >
           <div className="img-container">
             <img
-              src="https://tse3.explicit.bing.net/th?id=OIP.4d7Emr_d4fJnEE6zK7pj_wHaFK&pid=Api&P=0"
-              alt="Kavin"
+              src="https://via.placeholder.com/200/0000FF/808080"
+              alt="Image 1"
             />
+            <p id="legend">Slider don't lie</p>
           </div>
           <div className="img-container">
             <img
-              src="https://tse4.mm.bing.net/th?id=OIP.HM664gtdbHVkOXvWG4X3LAHaE7&pid=Api&P=0"
-              alt="Kavin"
+              src="https://via.placeholder.com/200/FF0101/808080"
+              alt="Image 2"
             />
+            <p>Slider don't lie</p>
           </div>
           <div className="img-container">
             <img
-              src="https://tse2.mm.bing.net/th?id=OIP.Ru8PL0KYLo9XnIn2NWqUvAHaEA&pid=Api&P=0"
-              alt="Kavin"
+              src="https://via.placeholder.com/200/FEFF00/808080"
+              alt="Image 3"
             />
+            <p>Slider don't lie</p>
+          </div>
+          <div className="img-container">
+            <img
+              src="https://via.placeholder.com/200/000000/808080"
+              alt="Image 4"
+            />
+            <div className="img-description-container">Hello</div>
+            <p>Slider don't lie</p>
           </div>
         </Carousel>
       </div>

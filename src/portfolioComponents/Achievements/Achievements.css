@@ -5,20 +5,21 @@
     margin-bottom: 20%;
 }
 
-.carousel-wrapper {
+.carousel-container {
     width: 100%;
     margin-top: 5%;
+    /* background-color: brown; */
 }
 
 .img-container {
     height: 50vh;
-    width: 100%;
-    border-radius: 100px 0px 100px 0px;
+    width: 50%;
+    /* border-radius: 100px 0px 100px 0px; */
 }
 
 .img-container>img {
     height: 100%;
     width: 100%;
-    border-radius: 100px 0px 100px 0px;
+    /* border-radius: 100px 0px 100px 0px; */
     object-fit: cover;
 }
