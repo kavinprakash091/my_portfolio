@@ -1,19 +1,19 @@
 import React from "react";
 
-export default function ProgressBar({ bgcolor, progress, height }) {
+export default function ProgressBar({ progress }) {
   const Parentdiv = {
-    height: "3vh",
+    height: "2.5vh",
     width: "100%",
     backgroundColor: "#dadada",
     borderRadius: 50,
   };
 
   const Childdiv = {
-    height: "100%",
+    height: "80%",
     width: `${progress}%`,
     backgroundColor: "#1e1f30",
     borderRadius: 40,
-    padding: "0.5px",
+    padding: "1.5px",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -22,7 +22,7 @@ export default function ProgressBar({ bgcolor, progress, height }) {
   const progresstext = {
     fontSize: "0.8rem",
     color: "#ffffff",
-    fontWeight: 600,
+    fontWeight: 400,
   };
   return (
     <div style={Parentdiv}>

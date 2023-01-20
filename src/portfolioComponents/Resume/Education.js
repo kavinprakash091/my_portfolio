@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Education(props) {
   return (
-    <ul className="resume-list-details">
+    <ul className="resume-list-detailss">
       {props.data.map((edu) => (
         <li key={edu.year}>
           <div className="resume-list-items">
@@ -11,7 +11,7 @@ export default function Education(props) {
                 {edu.name}, {edu.place}
               </div>
               <div className="education">
-                {edu.level} - {edu.marks}
+                {edu.level} - {edu.percentage}
               </div>
             </div>
             <button className="year-button">{edu.year}</button>
