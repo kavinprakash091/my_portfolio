@@ -23,19 +23,19 @@ const data = {
     ],
     programming: [{
             name: "C Programming",
-            percentage: 90,
+            percentage: 75,
         },
         {
             name: "Java Programming",
-            percentage: 85,
-        },
-        {
-            name: "Python Programming",
             percentage: 80,
         },
         {
+            name: "Python Programming",
+            percentage: 70,
+        },
+        {
             name: "HTML, CSS, JAVASCRIPT",
-            percentage: 95,
+            percentage: 90,
         },
         {
             name: "PHP/MYSQL",
@@ -43,15 +43,15 @@ const data = {
         },
         {
             name: "React",
-            percentage: 75,
+            percentage: 70,
         },
         {
             name: "Node Js",
-            percentage: 70,
+            percentage: 50,
         },
         {
             name: "Mongo DB",
-            percentage: 70,
+            percentage: 60,
         },
     ],
     projects: [{

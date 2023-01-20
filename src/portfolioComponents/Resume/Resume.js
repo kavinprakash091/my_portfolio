@@ -21,6 +21,7 @@ export default function Resume(props) {
         <div className="resume-list-container">
           <ul className="resume-menus">
             <li
+              className={category === "1" ? "icon-active" : ""}
               onClick={() => {
                 setCategory("1");
               }}
@@ -28,6 +29,7 @@ export default function Resume(props) {
               <i class="fa-solid fa-user-graduate"></i>
             </li>
             <li
+              className={category === "2" ? "icon-active" : ""}
               onClick={() => {
                 setCategory("2");
               }}
@@ -35,6 +37,7 @@ export default function Resume(props) {
               <i class="fa-solid fa-computer"></i>
             </li>
             <li
+              className={category === "3" ? "icon-active" : ""}
               onClick={() => {
                 setCategory("3");
               }}
@@ -42,6 +45,7 @@ export default function Resume(props) {
               <i class="fa-solid fa-chart-column"></i>
             </li>
             <li
+              className={category === "4" ? "icon-active" : ""}
               onClick={() => {
                 setCategory("4");
               }}
@@ -49,6 +53,7 @@ export default function Resume(props) {
               <i class="fa-solid fa-palette"></i>
             </li>
             <li
+              className={category === "5" ? "icon-active" : ""}
               onClick={() => {
                 setCategory("5");
               }}
@@ -95,7 +100,7 @@ export default function Resume(props) {
                 setCategory("5");
               }}
             >
-              Volunteers
+              Activities
             </li>
           </ul>
         </div>

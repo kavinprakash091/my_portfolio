@@ -13,41 +13,62 @@ export default function Achievements(props) {
       </div>
       <Line></Line>
       <div className="carousel-container">
-        <Carousel
-          infiniteLoop
-          autoPlay
-          useKeyboardArrows
-          centerMode
-          dynamicHeight
-        >
+        <Carousel autoPlay interval="5000" transitionTime="5000" infiniteLoop>
           <div className="img-container">
             <img
-              src="https://via.placeholder.com/200/0000FF/808080"
-              alt="Image 1"
+              src={require("../../assets/Achievements/Fruit_crash.png")}
+              alt="Fruit Crash"
             />
-            <p id="legend">Slider don't lie</p>
+            <div className="legend containers">
+              <a href="https://kavinprakash091.github.io/fruits_crash/">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/fruits_crash">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
           </div>
           <div className="img-container">
             <img
-              src="https://via.placeholder.com/200/FF0101/808080"
-              alt="Image 2"
+              src={require("../../assets/Achievements/Drawing_app.png")}
+              alt="Drawing App"
             />
-            <p>Slider don't lie</p>
+            <div className="legend containers">
+              <a href="https://kavinprakash091.github.io/drawing_website/">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/drawing_website">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
           </div>
           <div className="img-container">
             <img
-              src="https://via.placeholder.com/200/FEFF00/808080"
-              alt="Image 3"
+              src={require("../../assets/Achievements/my_kec.png")}
+              alt="my_kec"
             />
-            <p>Slider don't lie</p>
+            <div className="legend containers">
+              <a href="https://mykec.kongu.edu">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/my_kec">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
           </div>
           <div className="img-container">
             <img
-              src="https://via.placeholder.com/200/000000/808080"
-              alt="Image 4"
+              src={require("../../assets/Achievements/Amazona.png")}
+              alt="Amazona"
             />
-            <div className="img-description-container">Hello</div>
-            <p>Slider don't lie</p>
+            <div className="legend containers">
+              <a href="https://kavinprakash091.github.io/fruits_crash/">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/amazona">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
           </div>
         </Carousel>
       </div>

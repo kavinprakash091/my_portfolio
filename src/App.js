@@ -4,6 +4,7 @@ import Aboutme from "./portfolioComponents/AboutMe/Details";
 import Resume from "./portfolioComponents/Resume/Resume";
 import Achievements from "./portfolioComponents/Achievements/Achievements";
 import Contactme from "./portfolioComponents/ContactMe/Contactme";
+import Footer from "./portfolioComponents/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -19,6 +20,7 @@ function App() {
         subheader="How my Performance?"
       ></Achievements>
       <Contactme header="Contact Me" subheader="Lets Keep in Touch"></Contactme>
+      <Footer></Footer>
     </div>
   );
 }

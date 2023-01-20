@@ -103,15 +103,18 @@
     border: 1px solid #fff;
     font-size: 1rem;
     border-radius: 25px;
-    background-color: #1e1f30;
     color: #fff;
     cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #fff 50%);
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.7s ease-out;
 }
 
 .hire-me-button:hover {
-    background-color: #fff;
     color: #1e1f30;
-    transition: 0.7s ease-out;
+    background-position: right bottom;
 }
 
 .get-resume-button {
@@ -120,15 +123,18 @@
     border: none;
     font-size: 1rem;
     border-radius: 25px;
-    background-color: #e63c22;
     color: #fff;
     cursor: pointer;
+    background: linear-gradient(to right, #e63c22 50%, #ffffff 50%);
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.7s ease-out;
 }
 
 .get-resume-button:hover {
-    background-color: #fff;
     color: #1e1f30;
-    transition: 0.7s ease-in-out;
+    background-position: right bottom;
 }
 
 @media screen and (max-width: 900px) {
