@@ -15,7 +15,7 @@ export default function Navbar() {
         PORT<span className="color-text">FOLIO</span>
       </div>
       <ul className="nav-links">
-        <li className="active">
+        <li>
           <a href="#home">Home</a>
         </li>
         <li>
