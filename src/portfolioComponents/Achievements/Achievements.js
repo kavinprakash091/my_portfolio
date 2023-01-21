@@ -1,8 +1,8 @@
 import React from "react";
 import "./Achievements.css";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Line from "../Line/Line";
+import data from "../Resume/data";
+import Card from "./Card";
 
 export default function Achievements(props) {
   return (
@@ -12,65 +12,10 @@ export default function Achievements(props) {
         <h5>{props.subheader}</h5>
       </div>
       <Line></Line>
-      <div className="carousel-container">
-        <Carousel autoPlay interval="5000" transitionTime="5000" infiniteLoop>
-          <div className="img-container">
-            <img
-              src={require("../../assets/Achievements/Fruit_crash.png")}
-              alt="Fruit Crash"
-            />
-            <div className="legend containers">
-              <a href="https://kavinprakash091.github.io/fruits_crash/">
-                <button className="live-demo-button">Live Demo</button>{" "}
-              </a>
-              <a href="https://github.com/kavinprakash091/fruits_crash">
-                <button className="github-button">Github</button>
-              </a>
-            </div>
-          </div>
-          <div className="img-container">
-            <img
-              src={require("../../assets/Achievements/Drawing_app.png")}
-              alt="Drawing App"
-            />
-            <div className="legend containers">
-              <a href="https://kavinprakash091.github.io/drawing_website/">
-                <button className="live-demo-button">Live Demo</button>{" "}
-              </a>
-              <a href="https://github.com/kavinprakash091/drawing_website">
-                <button className="github-button">Github</button>
-              </a>
-            </div>
-          </div>
-          <div className="img-container">
-            <img
-              src={require("../../assets/Achievements/my_kec.png")}
-              alt="my_kec"
-            />
-            <div className="legend containers">
-              <a href="https://mykec.kongu.edu">
-                <button className="live-demo-button">Live Demo</button>{" "}
-              </a>
-              <a href="https://github.com/kavinprakash091/my_kec">
-                <button className="github-button">Github</button>
-              </a>
-            </div>
-          </div>
-          <div className="img-container">
-            <img
-              src={require("../../assets/Achievements/Amazona.png")}
-              alt="Amazona"
-            />
-            <div className="legend containers">
-              <a href="https://kavinprakash091.github.io/fruits_crash/">
-                <button className="live-demo-button">Live Demo</button>{" "}
-              </a>
-              <a href="https://github.com/kavinprakash091/amazona">
-                <button className="github-button">Github</button>
-              </a>
-            </div>
-          </div>
-        </Carousel>
+      <div className="projects-container">
+        {data.projects.map((proj) => (
+          <Card data={proj}></Card>
+        ))}
       </div>
     </div>
   );

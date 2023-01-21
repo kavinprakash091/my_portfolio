@@ -73,17 +73,25 @@
     padding: 1% 1.5%;
     border: none;
     border-radius: 8px;
-    margin-top: -10%;
+    margin-top: -9%;
     margin-right: 3%;
     font-size: 1rem;
     background-color: #e63c22;
     color: #fff;
     float: right;
     cursor: pointer;
+    background: linear-gradient(to top, #e63c22 50%, #ffffff 150%);
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: top right;
+    transition: all 0.7s ease-out;
 }
 
 .up-button:hover {
-    margin-top: -11%;
+    color: #1e1f30;
+    font-size: 1.3rem;
+    margin-top: -10%;
+    background-position: bottom left;
 }
 
 @media screen and (max-width: 800px) {

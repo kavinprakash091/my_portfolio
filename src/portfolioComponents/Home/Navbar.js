@@ -25,7 +25,7 @@ export default function Navbar() {
           <a href="#resume">Resume</a>
         </li>
         <li>
-          <a href="#achievements">Achievements</a>
+          <a href="#achievements">Projects Demo</a>
         </li>
         <li>
           <a href="#contactme">Contact Me</a>

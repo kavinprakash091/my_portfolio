@@ -1,37 +1,102 @@
 .achievements-container {
-    height: 60vh;
     width: 80%;
     margin: 5% auto;
-    margin-bottom: 20%;
 }
 
-.carousel-container {
+.projects-container {
     width: 100%;
     margin-top: 5%;
-    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.img-container {
-    height: 50vh;
-    width: 100%;
-    /* border-radius: 100px 0px 100px 0px; */
+.project-card-container {
+    width: 30%;
+    border: 2px solid #1e1f30;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.img-container>img {
+.project-card-container:hover {
+    padding: 1%;
+    transition: all 0.5s ease-in;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.project-image-container {
+    height: 30vh;
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.project-image-container>img {
     height: 100%;
     width: 100%;
-    /* border-radius: 100px 0px 100px 0px; */
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.carousel .slide .legend {
-    background: none;
-    opacity: 1;
+.project-description-container {
+    height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: justify;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.project-button-container {
+    width: 90%;
+    margin: 5% auto;
+    text-align: left;
 }
 
 .live-demo-button {
-    padding: 2%;
+    padding: 3% 5%;
+    margin-right: 5%;
+    border: 1px solid #1e1f30;
+    border-radius: 8px;
+    font-weight: 300;
     background: none;
-    border: 1px solid #e63c22;
-    color: #e63c22;
+    font-size: 1rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #ffffff 50%, #e63c22 50%);
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.7s ease-out;
+}
+
+.live-demo-button:hover {
+    border: none;
+    color: #ffffff;
+    background-position: right bottom;
+}
+
+.github-button {
+    padding: 3% 5%;
+    margin-right: 2%;
+    border: none;
+    background-color: #1e1f30;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #1e1f30 50%, #e63c22 50%);
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.7s ease-out;
+}
+
+.github-button:hover {
+    border: none;
+    background-position: right bottom;
 }

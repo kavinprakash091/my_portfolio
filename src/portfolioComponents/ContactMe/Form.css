@@ -40,17 +40,20 @@
     margin-bottom: 3%;
     padding: 1% 5%;
     border: 1px solid #e63c22;
-    background-color: #1e1f30;
     color: #fff;
     font-size: 1rem;
     border-radius: 25px;
     cursor: pointer;
+    background: linear-gradient(to right, #1e1f30 50%, #e63c22 50%);
+    background-color: transparent;
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.7s ease-out;
 }
 
 .send-button:hover {
-    background-color: #e63c22;
     border: 1px solid #1e1f30;
-    transition: 0.8s ease-in;
+    background-position: right bottom;
 }
 
 @media screen and (max-width: 450px) {

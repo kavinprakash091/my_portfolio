@@ -1,0 +1,66 @@
+<div className="carousel-container">
+        <Carousel
+          infiniteLoop
+          autoPlay
+          useKeyboardArrows
+          centerMode
+          dynamicHeight
+        >
+          <div className="img-container">
+            <img
+              src={require("../../assets/Achievements/Fruit_crash.png")}
+              alt="Fruit Crash"
+            />
+            <div className="legend containers">
+              <a href="https://kavinprakash091.github.io/fruits_crash/">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/fruits_crash">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
+          </div>
+          <div className="img-container">
+            <img
+              src={require("../../assets/Achievements/Drawing_app.png")}
+              alt="Drawing App"
+            />
+            <div className="legend containers">
+              <a href="hhttps://kavinprakash091.github.io/drawing_website/">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/drawing_website">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
+          </div>
+          <div className="img-container">
+            <img
+              src={require("../../assets/Achievements/my_kec.png")}
+              alt="my_kec"
+            />
+            <div className="legend containers">
+              <a href="https://mykec.kongu.edu">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/my_kec">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
+          </div>
+          <div className="img-container">
+            <img
+              src={require("../../assets/Achievements/Amazona.png")}
+              alt="Amazona"
+            />
+            <div className="legend containers">
+              <a href="https://kavinprakash091.github.io/fruits_crash/">
+                <button className="live-demo-button">Live Demo</button>{" "}
+              </a>
+              <a href="https://github.com/kavinprakash091/amazona">
+                <button className="github-button">Github</button>
+              </a>
+            </div>
+          </div>
+        </Carousel>
+      </div>
