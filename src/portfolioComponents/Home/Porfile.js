@@ -7,16 +7,16 @@ export default function Porfile() {
     <div className="profile-container">
       <div className="profile-details-container">
         <div className="social-media-container">
-          <a href="https://www.google.com">
+          <a href="https://www.facebook.com/profile.php?id=100089756736695">
             <i class="fa-brands fa-square-facebook"></i>
           </a>
-          <a href="https://www.google.com">
+          <a href="https://instagram.com/__en__field__love__r?igshid=ZDdkNTZiNTM=">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://www.google.com">
+          <a href="https://www.linkedin.com/in/kavin-prakash-785766219/">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://www.google.com">
+          <a href="https://github.com/kavinprakash091">
             <i class="fa-brands fa-square-github"></i>
           </a>
         </div>
