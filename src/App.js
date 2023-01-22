@@ -7,10 +7,15 @@ import Contactme from "./portfolioComponents/ContactMe/Contactme";
 import Footer from "./portfolioComponents/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Kavin P</title>
+        <link rel="icon" href={require("../src/assets/Home/Kavin_logo.jpg")} />
+      </Helmet>
       <ToastContainer position="top-right" limit={1}></ToastContainer>
       <Home></Home>
       <Aboutme header="About me" subheader="Why Choose Me?"></Aboutme>
