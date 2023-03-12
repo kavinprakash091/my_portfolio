@@ -1,8 +1,8 @@
-import React from "react";
-import "./Achievements.css";
-import Line from "../Line/Line";
-import data from "../Resume/data";
-import Card from "./Card";
+import React from 'react';
+import './Achievements.css';
+import Line from '../Line/Line';
+import data from '../Resume/data';
+import Card from './Card';
 
 export default function Achievements(props) {
   return (
@@ -13,8 +13,10 @@ export default function Achievements(props) {
       </div>
       <Line></Line>
       <div className="projects-container">
-        {data.projects.map((proj) => (
-          <Card data={proj}></Card>
+        {data.projects.map((proj, i) => (
+          <div key={i}>
+            <Card data={proj}></Card>
+          </div>
         ))}
       </div>
     </div>

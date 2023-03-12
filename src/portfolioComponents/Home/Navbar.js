@@ -5,13 +5,13 @@ export default function Navbar() {
   return (
     <div className="nav-bar-container">
       <input type="checkbox" id="isChecked" />
-      <label for="isChecked" className="menu-button">
-        <i class="fa-solid fa-bars"> </i>{' '}
+      <label htmlFor="isChecked" className="menu-button">
+        <i className="fa-solid fa-bars"> </i>{' '}
       </label>{' '}
-      <label for="isChecked" className="menu-button1">
-        <i class="fa-solid fa-xmark"> </i>{' '}
+      <label htmlFor="isChecked" className="menu-button1">
+        <i className="fa-solid fa-xmark"> </i>{' '}
       </label>{' '}
-      <div class="logo">
+      <div className="logo">
         <span className={{ '--i': '1' }}>K</span>
         <span className={{ '--i': '2' }}>A</span>
         <span className={{ '--i': '3' }}>V</span>
