@@ -175,6 +175,7 @@
 
 @media screen and (max-width: 800px) {
   .projects-container {
+    margin: -8% 0% 0% 3%;
     flex-direction: column;
   }
   .project-card-container {
@@ -189,6 +190,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .projects-container {
+    margin: -8% 0% 0% -1%;
+  }
   .project-card-container {
     width: 100%;
   }
@@ -203,6 +207,7 @@
 @media screen and (max-width: 450px) {
   .projects-container {
     width: 100%;
+    margin: -8% 0% 0% -1%;
   }
   .project-card-container {
     width: 100%;
