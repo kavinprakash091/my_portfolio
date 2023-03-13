@@ -174,8 +174,11 @@
 }
 
 @media screen and (max-width: 800px) {
+  .achievements-container {
+    width: 100%;
+  }
   .projects-container {
-    margin: -8% 0% 0% 3%;
+    margin: -8% 0% 0% 0%;
     flex-direction: column;
   }
   .project-card-container {
@@ -207,7 +210,7 @@
 @media screen and (max-width: 450px) {
   .projects-container {
     width: 100%;
-    margin: -8% 0% 0% -1%;
+    margin: -8% 0% 0% 0%;
   }
   .project-card-container {
     width: 100%;
@@ -216,9 +219,11 @@
     height: 24vh;
   }
   .face.face1 {
+    margin: 0 auto;
     width: 20rem;
   }
   .face.face2 {
+    margin: 0 auto;
     width: 20rem;
   }
   .project-description-container {
@@ -238,6 +243,6 @@
     margin: -10% auto 2%;
   }
   .shine {
-    width: 125%;
+    width: 110%;
   }
 }
