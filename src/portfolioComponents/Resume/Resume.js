@@ -13,9 +13,9 @@ export default function Resume(props) {
   return (
     <div className="resume-container" id="resume">
       <div className="header-container">
-        <h1> {props.header} </h1> <h5> {props.subheader} </h5>{' '}
-      </div>{' '}
-      <Line> </Line>{' '}
+        <h1> {props.header} </h1> <h5> {props.subheader} </h5>
+      </div>
+      <Line> </Line>
       <div className="resume-details-container">
         <div className="resume-list-container">
           <ul className="resume-menus">
@@ -25,41 +25,41 @@ export default function Resume(props) {
                 setCategory('1');
               }}
             >
-              <i className="fa-solid fa-user-graduate"> </i>{' '}
-            </li>{' '}
+              <i className="fa-solid fa-user-graduate"> </i>
+            </li>
             <li
               className={category === '2' ? 'icon-active' : ''}
               onClick={() => {
                 setCategory('2');
               }}
             >
-              <i className="fa-solid fa-computer"> </i>{' '}
-            </li>{' '}
+              <i className="fa-solid fa-computer"> </i>
+            </li>
             <li
               className={category === '3' ? 'icon-active' : ''}
               onClick={() => {
                 setCategory('3');
               }}
             >
-              <i className="fa-solid fa-chart-column"> </i>{' '}
-            </li>{' '}
+              <i className="fa-solid fa-chart-column"> </i>
+            </li>
             <li
               className={category === '4' ? 'icon-active' : ''}
               onClick={() => {
                 setCategory('4');
               }}
             >
-              <i className="fa-solid fa-palette"> </i>{' '}
-            </li>{' '}
+              <i className="fa-solid fa-palette"> </i>
+            </li>
             <li
               className={category === '5' ? 'icon-active' : ''}
               onClick={() => {
                 setCategory('5');
               }}
             >
-              <i className="fa-solid fa-handshake-angle"> </i>{' '}
-            </li>{' '}
-          </ul>{' '}
+              <i className="fa-solid fa-handshake-angle"> </i>
+            </li>
+          </ul>
           <ul className="resume-items">
             <li
               className={category === '1' ? 'active' : ''}
@@ -67,44 +67,43 @@ export default function Resume(props) {
                 setCategory('1');
               }}
             >
-              Education{' '}
-            </li>{' '}
+              Education
+            </li>
             <li
               className={category === '2' ? 'active' : ''}
               onClick={() => {
                 setCategory('2');
               }}
             >
-              Programming Skills{' '}
-            </li>{' '}
+              Programming Skills
+            </li>
             <li
               className={category === '3' ? 'active' : ''}
               onClick={() => {
                 setCategory('3');
               }}
             >
-              Projects{' '}
-            </li>{' '}
+              Projects
+            </li>
             <li
               className={category === '4' ? 'active' : ''}
               onClick={() => {
                 setCategory('4');
               }}
             >
-              Interests{' '}
-            </li>{' '}
+              Interests
+            </li>
             <li
               className={category === '5' ? 'active' : ''}
               onClick={() => {
                 setCategory('5');
               }}
             >
-              Activities{' '}
-            </li>{' '}
-          </ul>{' '}
-        </div>{' '}
+              Activities
+            </li>
+          </ul>
+        </div>
         <div className="resume-list-detail-container">
-          {' '}
           {category === '1' ? (
             <Education data={data.education}> </Education>
           ) : category === '2' ? (
@@ -115,9 +114,9 @@ export default function Resume(props) {
             <Interest data={data.interests}> </Interest>
           ) : (
             <Volunteer data={data.volunteer}> </Volunteer>
-          )}{' '}
-        </div>{' '}
-      </div>{' '}
+          )}
+        </div>
+      </div>
     </div>
   );
 }

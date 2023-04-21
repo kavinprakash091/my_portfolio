@@ -106,6 +106,15 @@ const data = {
       demo: 'https://coding-club-3gt3.onrender.com',
       code: 'https://github.com/kavinprakash091/coding_club_event',
     },
+    {
+      name: 'Materialistic Retail Website (Consultancy)',
+      description:
+        'It is an e-commerce website, it contains the dairy product machines and tutorials and various services provided by the organization. It is developed using MERN stack.',
+      year: '2023 - 2023',
+      image: 'machinery.png',
+      demo: 'https://machinery-company-name.onrender.com',
+      code: 'https://github.com/kavinprakash091/machinery',
+    },
   ],
   interests: [
     {

@@ -36,16 +36,16 @@ export default function Footer() {
         </ul>{' '}
         <div className="social-media-container2">
           <a href="https://www.facebook.com/profile.php?id=100089756736695">
-            <i className="fa-brands fa-square-facebook"> </i>{' '}
+            <i className="fa-brands fa-square-facebook"> </i>
           </a>{' '}
           <a href="https://instagram.com/__en__field__love__r?igshid=ZDdkNTZiNTM=">
-            <i className="fa-brands fa-instagram"> </i>{' '}
+            <i className="fa-brands fa-instagram"> </i>
           </a>{' '}
           <a href="https://www.linkedin.com/in/kavin-prakash-785766219/">
-            <i className="fa-brands fa-linkedin"> </i>{' '}
+            <i className="fa-brands fa-linkedin"> </i>
           </a>{' '}
           <a href="https://github.com/kavinprakash091">
-            <i className="fa-brands fa-square-github"> </i>{' '}
+            <i className="fa-brands fa-square-github"> </i>
           </a>{' '}
         </div>{' '}
         <div className="footer-mail-container">

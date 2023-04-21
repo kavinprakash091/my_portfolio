@@ -12,15 +12,15 @@ export default function Navbar() {
         <i className="fa-solid fa-xmark"> </i>{' '}
       </label>{' '}
       <div className="logo">
-        <span className={{ '--i': '1' }}>K</span>
-        <span className={{ '--i': '2' }}>A</span>
-        <span className={{ '--i': '3' }}>V</span>
-        <span className={{ '--i': '4' }}>I</span>
-        <span className={{ '--i': '5' }}>N</span>
-        <span className={{ '--i': '6' }}>&nbsp;</span>
+        <span className={{ '--i': '1' }}> K </span>{' '}
+        <span className={{ '--i': '2' }}> A </span>{' '}
+        <span className={{ '--i': '3' }}> V </span>{' '}
+        <span className={{ '--i': '4' }}> I </span>{' '}
+        <span className={{ '--i': '5' }}> N </span>{' '}
+        <span className={{ '--i': '6' }}> &nbsp; </span>{' '}
         <span className={{ '--i': '7' }}>
-          <div className="color-text"> P </div>
-        </span>
+          <div className="color-text"> P </div>{' '}
+        </span>{' '}
       </div>{' '}
       <ul className="nav-links">
         <li>
