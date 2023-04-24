@@ -37,7 +37,7 @@ const data = {
     },
     {
       name: 'HTML, CSS, JAVASCRIPT',
-      percentage: 80,
+      percentage: 85,
     },
     {
       name: 'PHP/MYSQL',
@@ -49,11 +49,11 @@ const data = {
     },
     {
       name: 'Node Js',
-      percentage: 50,
+      percentage: 65,
     },
     {
       name: 'Mongo DB',
-      percentage: 60,
+      percentage: 70,
     },
     {
       name: 'Git',
