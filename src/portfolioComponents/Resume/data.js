@@ -85,7 +85,7 @@ const data = {
         'The Project Task Management is a website which handles the status of the project and progress of the project. It is developed using MERN stack.',
       year: '2023 - 2023',
       image: 'TaskManager.png',
-      demo: 'https://project-task-manager-ron3.onrender.com/',
+      demo: 'https://project-task-manager-ron3.onrender.com',
       code: 'https://github.com/kavinprakash091/Task_Manager',
     },
     {
@@ -103,7 +103,7 @@ const data = {
         'It is similar to coding platform, there are several stages in the event, each event is locked with password. It is developed using MERN stack.',
       year: '2023 - 2023',
       image: 'codingClub.png',
-      demo: 'https://coding-club-3gt3.onrender.com',
+      demo: 'https://coding-club-y2gr.onrender.com',
       code: 'https://github.com/kavinprakash091/coding_club_event',
     },
     {
@@ -114,6 +114,24 @@ const data = {
       image: 'machinery.png',
       demo: 'https://machinery-company-name.onrender.com',
       code: 'https://github.com/kavinprakash091/machinery',
+    },
+    {
+      name: 'Flight booking',
+      description:
+        'Flight booking website. It has two interfaces such as admin and users. Admin can add and schedule the flights, users can book the flight tickets. It is developed using MERN stack.',
+      year: '2023 - 2023',
+      image: 'flightBooking.png',
+      demo: 'https://flight-booking-devrev.onrender.com',
+      code: 'https://github.com/kavinprakash091/FLIGHT-BOOKING',
+    },
+    {
+      name: 'In Desicards',
+      description:
+        'A Desi card games - Indian monuments. It contains details about the In Desicard game. It is developed using HTML, CSS and Javascript.',
+      year: '2023 - 2023',
+      image: 'indesicards.png',
+      demo: 'https://indesicards.kongu.edu',
+      code: 'https://github.com/kavinprakash091/INDESICARDS',
     },
   ],
   interests: [
