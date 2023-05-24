@@ -85,7 +85,7 @@ const data = {
         'The Project Task Management is a website which handles the status of the project and progress of the project. It is developed using MERN stack.',
       year: '2023 - 2023',
       image: 'TaskManager.png',
-      demo: 'https://project-task-manager-ron3.onrender.com',
+      demo: 'https://task-manager-067g.onrender.com',
       code: 'https://github.com/kavinprakash091/Task_Manager',
     },
     {
